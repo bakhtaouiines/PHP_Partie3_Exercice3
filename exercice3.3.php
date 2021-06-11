@@ -12,12 +12,10 @@
         <?php
         $firstNumber = 100;
         $secondNumber = 48;
-        while ($firstNumber >=10){
+        while ($firstNumber > 10){
         ?>  
-            <li>
-            <?= ($firstNumber.'x' .$secondNumber. ' = ' .$firstNumber*$secondNumber);
-            $firstNumber--;}?>
-            </li>
+            <li><?= ($firstNumber.'x' .$secondNumber. ' = ' .$firstNumber*$secondNumber);?></li>  
+            <?php $firstNumber--;}?>
     </ul>
 </body>
 </html>
